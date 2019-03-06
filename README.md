@@ -1,5 +1,7 @@
 # plcodec
 
+[![Build Status](https://travis-ci.org/plausiblelabs/plcodec.png?branch=master)](https://travis-ci.org/plausiblelabs/plcodec)
+
 An ObjC++ library that provides combinators for purely functional, declarative encoding and decoding of binary data.  Its design is largely derived from that of the [scodec](https://github.com/scodec/scodec) library for Scala.
 
 ## Examples
@@ -58,7 +60,7 @@ auto versionCodec = (
 ).as<TestRecordVersion>();
 
 auto sectionCodec = (
-    /* The base uintXX codecs assume big endian serialization; the `L' variants assume little endian serialization */
+    /* The base uintXX codecs assume big endian serialization; the `L' variants assume little endian */
     ("section_offset"            | codecs::uint64L  ) &
     ("section_length"            | codecs::uint64L  )
 ).as<TestSectionRecord>();
