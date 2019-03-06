@@ -1,0 +1,3 @@
+[submodule "Dependencies/PLStdCPP/Dependencies/ftl"]
+	path = Dependencies/PLStdCPP/Dependencies/ftl
+	url = https://github.com/plausiblelabs/ftl.git
