@@ -2,5 +2,11 @@ os: osx
 osx_image: xcode10.1
 language: objective-c
 xcode_project: PLCodec.xcodeproj
-xcode_scheme: PLCodec-iOSTests
-xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone XR
+
+matrix:
+  include:
+    - xcode_scheme: PLCodec-iOSTests
+      xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone XR
+
+    - xcode_scheme: PLCodec-macOSTests
+      xcode_destination: platform=macOS
