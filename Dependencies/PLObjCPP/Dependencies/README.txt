@@ -11,4 +11,4 @@ XSmallTest
       MIT
 
     Modifications:
-      None
+      Marked int_xsm_sect_record_record struct as `aligned` to fix alignment-related linker warnings on iOS.
