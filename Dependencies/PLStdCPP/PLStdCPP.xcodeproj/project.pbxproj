@@ -22,7 +22,7 @@
 		37830D0F1E8AFFD50067166F /* hlist.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 373BC3521AB3588D00138ACF /* hlist.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		37830D101E8AFFD50067166F /* product_type.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 05249C2E1AF9404600EAED37 /* product_type.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		37830D111E8AFFD50067166F /* record_type.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 373BC3571AB3588D00138ACF /* record_type.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		37830D121E8AFFD50067166F /* ftl in Headers */ = {isa = PBXBuildFile; fileRef = 05249C5A1AF9407900EAED37 /* ftl */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C4BDAF222F4E0F004375FD /* ftl in Headers */ = {isa = PBXBuildFile; fileRef = 05249C5A1AF9407900EAED37 /* ftl */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -235,7 +235,7 @@
 				37830D0F1E8AFFD50067166F /* hlist.hpp in Headers */,
 				37830D101E8AFFD50067166F /* product_type.hpp in Headers */,
 				37830D111E8AFFD50067166F /* record_type.hpp in Headers */,
-				37830D121E8AFFD50067166F /* ftl in Headers */,
+				37C4BDAF222F4E0F004375FD /* ftl in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
