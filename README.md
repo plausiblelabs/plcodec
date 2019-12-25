@@ -1,6 +1,12 @@
 # plcodec
 
-[![Build Status](https://travis-ci.com/plausiblelabs/plcodec.svg?branch=master)](https://travis-ci.com/plausiblelabs/plcodec)
+[![Build Status][gh-actions-badge]][gh-actions-url]
+[![MIT licensed][mit-badge]][mit-url]
+
+[gh-actions-badge]: https://github.com/plausiblelabs/plcodec/workflows/Build/badge.svg?event=push
+[gh-actions-url]: https://github.com/plausiblelabs/plcodec/actions?query=workflow%3ABuild+branch%3Amaster
+[mit-badge]: https://img.shields.io/badge/license-MIT-blue.svg
+[mit-url]: LICENSE
 
 An ObjC++ library that provides combinators for purely functional, declarative encoding and decoding of binary data.  Its design is largely derived from that of the [scodec](https://github.com/scodec/scodec) library for Scala.
 
