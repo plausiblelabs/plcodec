@@ -38,6 +38,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v1
+        with:
+          submodules: true
 
       - name: Select Xcode 11.1
         run: sudo xcode-select -switch /Applications/Xcode_11.1.app
