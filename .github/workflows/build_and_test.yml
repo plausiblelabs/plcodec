@@ -46,4 +46,4 @@ jobs:
 
       - name: Build and Test
         run: |
-          xcodebuild clean test -scheme PLCodec-${{ matrix.name }} -destination "${{ matrix.destination }}" | xcpretty
+          set -o pipefail && xcodebuild clean test -scheme PLCodec-${{ matrix.name }} -destination "${{ matrix.destination }}" | xcpretty
